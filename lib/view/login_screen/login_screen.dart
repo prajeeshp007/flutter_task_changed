@@ -49,6 +49,8 @@ class LoginScreen extends StatelessWidget {
                   height: 20,
                 ),
                 TextFormField(
+                  obscureText: true,
+                  obscuringCharacter: '*',
                   controller: passkey,
                   decoration: InputDecoration(
                       suffixIcon: Icon(Icons.visibility_off),
